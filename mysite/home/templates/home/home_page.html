@@ -5,15 +5,59 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block extra_css %}
+<link rel="stylesheet" href="{% static 'node_modules/@glidejs/glide/dist/css/glide.core.min.css' %}">
 
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
+<!-- Optional Theme Stylesheet -->
+<link rel="stylesheet" href="{% static 'node_modules/@glidejs/glide/dist/css/glide.theme.min.css' %}">
+<style>
+    .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .glide__slide {
+        border: 1px solid black;
+        line-height: 100px;
+        margin: 0;
+        text-align: center;
+    }
+</style>
 {% endblock extra_css %}
 
 {% block content %}
 
+<div class="wrap">
+
+    <div class="glide hero">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">1</li>
+                <li class="glide__slide">2</li>
+                <li class="glide__slide">3</li>
+                <li class="glide__slide">4</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
 {{ page.body | richtext }}
 
 {% endblock content %}
+
+{% block extra_js %}
+<script src="{% static 'node_modules/@glidejs/glide/dist/glide.min.js' %}"></script>
+<script>
+var glideHero = new Glide('.hero', {
+  type: 'carousel',
+  animationDuration: 2000,
+  autoplay: 4500,
+  focusAt: '1',
+  startAt: 3,
+  perView: 1, 
+});
+
+glideHero.mount();
+</script>
+
+{% endblock extra_js %}

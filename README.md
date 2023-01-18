@@ -4,8 +4,10 @@
 
 - [X] Instalar Wagtail 
 - [X] Home Page
-- [ ] Instalar debug toolbar
+- [X] Instalar debug toolbar
 - [ ] Crear app blog
 - [ ] Blog Index y Posts
 - [ ] Imágenes y documentos
 - [ ] Tags y categorías
+- [ ] Carrusel en home (Buscar librería, por ejemplo https://glidejs.com/)
+- [ ] Búsqueda

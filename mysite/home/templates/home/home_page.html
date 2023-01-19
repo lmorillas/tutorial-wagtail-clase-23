@@ -21,6 +21,12 @@
         margin: 0;
         text-align: center;
     }
+    .slide {
+        width: 50%;
+        
+        background-size: cover;
+        background-position: center;
+    }
 </style>
 {% endblock extra_css %}
 
@@ -31,10 +37,9 @@
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide">1</li>
-                <li class="glide__slide">2</li>
-                <li class="glide__slide">3</li>
-                <li class="glide__slide">4</li>
+                {% for n in '123456'|make_list %}
+                <li class="glide__slide"><img src="{% get_static_prefix %}carousel/{{n}}.png" class="slide"></li>
+                {% endfor %}
             </ul>
         </div>
     </div>
@@ -51,10 +56,10 @@
 var glideHero = new Glide('.hero', {
   type: 'carousel',
   animationDuration: 2000,
-  autoplay: 4500,
+  autoplay: 1500,
   focusAt: '1',
-  startAt: 3,
-  perView: 1, 
+  startAt: 1,
+  perView: 3, 
 });
 
 glideHero.mount();

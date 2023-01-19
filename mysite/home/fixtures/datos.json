@@ -1,5 +1,25 @@
 [
 {
+  "model": "blog.blogpagegalleryimage",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 5,
+    "image": 2,
+    "caption": "Pan"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 5,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
   "model": "wagtailcore.locale",
   "pk": 1,
   "fields": {
@@ -120,6 +140,213 @@
   }
 },
 {
+  "model": "wagtailcore.referenceindex",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "4",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "5",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "6",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "2",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.1.image",
+    "content_path_hash": "43650d34-ff5a-57e1-8285-1d1a3528d2c8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.2.image",
+    "content_path_hash": "85f506df-ac2c-5104-97df-336036d91e03"
+  }
+},
+{
   "model": "wagtailcore.workflowpage",
   "pk": 1,
   "fields": {
@@ -153,6 +380,66 @@
   "fields": {
     "name": "Moderators approval",
     "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "pájaro",
+    "slug": "pájaro"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "wagtail",
+    "slug": "wagtail"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "aguzanieves",
+    "slug": "aguzanieves"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
   }
 },
 {
@@ -267,8 +554,8 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$390000$ho01gbBnTjith29nIcFPYx$yP4XvJ4TyX2BJcBzcRRBDKO6LoVMwkVoZpXYj5H9MVo=",
-    "last_login": "2023-01-16T09:50:07.037Z",
+    "password": "pbkdf2_sha256$390000$p5Dsa0xkUNwzXvkgESElXx$Mrop6Pmom6cEHrbJ/6CyRPPf6NwPihx61xSU4uzdJAI=",
+    "last_login": "2023-01-19T11:15:59.570Z",
     "is_superuser": true,
     "username": "lm",
     "first_name": "",
@@ -276,7 +563,7 @@
     "email": "lm@lm.com",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2023-01-16T09:46:31.707Z",
+    "date_joined": "2023-01-18T07:58:07.485Z",
     "groups": [],
     "user_permissions": []
   }
@@ -293,6 +580,39 @@
   }
 },
 {
+  "model": "wagtailcore.pagesubscription",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 4,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 5,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 6,
+    "comment_notifications": true
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -303,8 +623,8 @@
     "label": "Home",
     "action": "wagtail.edit",
     "data": {},
-    "timestamp": "2023-01-16T10:06:30.977Z",
-    "uuid": "4ac98649-e8c5-44a5-9767-eef6f6889e2b",
+    "timestamp": "2023-01-18T08:12:28.591Z",
+    "uuid": "f224264a-358b-4210-b834-cbc727e96609",
     "user": [
       "lm"
     ],
@@ -325,8 +645,8 @@
     "label": "Home",
     "action": "wagtail.publish",
     "data": {},
-    "timestamp": "2023-01-16T10:06:31.020Z",
-    "uuid": "4ac98649-e8c5-44a5-9767-eef6f6889e2b",
+    "timestamp": "2023-01-18T08:12:28.648Z",
+    "uuid": "f224264a-358b-4210-b834-cbc727e96609",
     "user": [
       "lm"
     ],
@@ -334,6 +654,336 @@
     "content_changed": true,
     "deleted": false,
     "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T12:26:49.951Z",
+    "uuid": "7c85ab42-e2e1-441d-82e0-716e2b6b4612",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T12:26:50.064Z",
+    "uuid": "7c85ab42-e2e1-441d-82e0-716e2b6b4612",
+    "user": [
+      "lm"
+    ],
+    "revision": 2,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:35.904Z",
+    "uuid": "b67052e6-5a46-451f-bd2c-3a1340d44e5a",
+    "user": [
+      "lm"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:40.230Z",
+    "uuid": "f22802de-b9a2-4dce-960f-590ae2f98b4c",
+    "user": [
+      "lm"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:40.311Z",
+    "uuid": "f22802de-b9a2-4dce-960f-590ae2f98b4c",
+    "user": [
+      "lm"
+    ],
+    "revision": 4,
+    "content_changed": false,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T13:00:56.320Z",
+    "uuid": "f3ba7bdf-6891-4d9c-861f-d8ce3a05bc33",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:00:56.429Z",
+    "uuid": "f3ba7bdf-6891-4d9c-861f-d8ce3a05bc33",
+    "user": [
+      "lm"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T13:01:59.915Z",
+    "uuid": "197cac2f-8b09-4a85-8849-dd0d7fe56f85",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:02:00.011Z",
+    "uuid": "197cac2f-8b09-4a85-8849-dd0d7fe56f85",
+    "user": [
+      "lm"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:13:44.764Z",
+    "uuid": "efe132c0-c45d-463e-8b68-b3b8d840fd59",
+    "user": [
+      "lm"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:13:44.836Z",
+    "uuid": "efe132c0-c45d-463e-8b68-b3b8d840fd59",
+    "user": [
+      "lm"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:06.324Z",
+    "uuid": "83485887-9b74-42b9-80a1-2caeb26b1a7c",
+    "user": [
+      "lm"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:06.411Z",
+    "uuid": "83485887-9b74-42b9-80a1-2caeb26b1a7c",
+    "user": [
+      "lm"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:30.558Z",
+    "uuid": "b59fb1ed-84de-4cbf-9cd9-0478764afd80",
+    "user": [
+      "lm"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:30.644Z",
+    "uuid": "b59fb1ed-84de-4cbf-9cd9-0478764afd80",
+    "user": [
+      "lm"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
   }
 },
 {
@@ -361,7 +1011,7 @@
     ],
     "object_id": "3",
     "submitted_for_moderation": false,
-    "created_at": "2023-01-16T10:06:30.957Z",
+    "created_at": "2023-01-18T08:12:28.564Z",
     "user": [
       "lm"
     ],
@@ -371,7 +1021,7 @@
       "path": "00010001",
       "depth": 2,
       "numchild": 0,
-      "translation_key": "cc73ae4f-fe57-4e28-80bd-755dedc81b10",
+      "translation_key": "bbb02bc7-fa32-4fd6-98b6-3b0f76712b02",
       "locale": 1,
       "latest_revision": null,
       "live": true,
@@ -396,8 +1046,499 @@
       "search_description": "",
       "latest_revision_created_at": null,
       "alias_of": null,
-      "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><embed alt=\"Barras de pan\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"2ci5k\"></p>",
+      "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><p data-block-key=\"97uok\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"c2611\"></p><p data-block-key=\"2ci5k\"></p>",
       "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:26:49.972Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "mi-blog",
+      "content_type": 46,
+      "url_path": "/home/mi-blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:47:35.881Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": 2,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T12:26:50.025Z",
+      "last_published_at": "2023-01-19T12:26:50.025Z",
+      "live_revision": 2,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "blog",
+      "content_type": 46,
+      "url_path": "/home/mi-blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T12:26:49.972Z",
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:47:40.208Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": 3,
+      "live": true,
+      "has_unpublished_changes": true,
+      "first_published_at": "2023-01-19T12:26:50.025Z",
+      "last_published_at": "2023-01-19T12:26:50.025Z",
+      "live_revision": 2,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "blog",
+      "content_type": 46,
+      "url_path": "/home/blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T12:47:35.881Z",
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:00:56.337Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:01:59.932Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Segundo post",
+    "content": {
+      "pk": 6,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f8cdf702-5819-4842-937e-4a1fe7b33464",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Segundo post",
+      "draft_title": "Segundo post",
+      "slug": "segundo-post",
+      "content_type": 47,
+      "url_path": "/home/blog/segundo-post/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Segunda publi",
+      "body": "",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:13:44.731Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 5,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:00:56.389Z",
+      "live_revision": 5,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:00:56.337Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:15:06.294Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 7,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:13:44.789Z",
+      "live_revision": 7,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:13:44.731Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:15:30.527Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 8,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:15:06.354Z",
+      "live_revision": 8,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:15:06.294Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
     },
     "approved_go_live_at": null
   }
@@ -409,7 +1550,7 @@
     "path": "0001",
     "depth": 1,
     "numchild": 1,
-    "translation_key": "49b20754-fc18-409b-9221-3780af160a4c",
+    "translation_key": "d9e21ad6-4491-4be7-8462-8aed1400539e",
     "locale": 1,
     "latest_revision": null,
     "live": true,
@@ -445,14 +1586,14 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 0,
-    "translation_key": "cc73ae4f-fe57-4e28-80bd-755dedc81b10",
+    "numchild": 1,
+    "translation_key": "bbb02bc7-fa32-4fd6-98b6-3b0f76712b02",
     "locale": 1,
     "latest_revision": 1,
     "live": true,
     "has_unpublished_changes": false,
-    "first_published_at": "2023-01-16T10:06:30.990Z",
-    "last_published_at": "2023-01-16T10:06:30.990Z",
+    "first_published_at": "2023-01-18T08:12:28.610Z",
+    "last_published_at": "2023-01-18T08:12:28.610Z",
     "live_revision": 1,
     "go_live_at": null,
     "expire_at": null,
@@ -472,7 +1613,124 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2023-01-16T10:06:30.957Z",
+    "latest_revision_created_at": "2023-01-18T08:12:28.564Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
+    "numchild": 2,
+    "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+    "locale": 1,
+    "latest_revision": 4,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-19T12:26:50.025Z",
+    "last_published_at": "2023-01-19T12:47:40.252Z",
+    "live_revision": 4,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Mi Blog",
+    "draft_title": "Mi Blog",
+    "slug": "blog",
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "url_path": "/home/blog/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-19T12:47:40.208Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "0001000100010001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+    "locale": 1,
+    "latest_revision": 9,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-19T13:00:56.389Z",
+    "last_published_at": "2023-01-19T13:15:30.589Z",
+    "live_revision": 9,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Pimera publicación",
+    "draft_title": "Pimera publicación",
+    "slug": "pimera-publicacion",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/pimera-publicacion/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-19T13:15:30.527Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "0001000100010002",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "f8cdf702-5819-4842-937e-4a1fe7b33464",
+    "locale": 1,
+    "latest_revision": 6,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-19T13:01:59.975Z",
+    "last_published_at": "2023-01-19T13:01:59.975Z",
+    "live_revision": 6,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Segundo post",
+    "draft_title": "Segundo post",
+    "slug": "segundo-post",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/segundo-post/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-19T13:01:59.932Z",
     "alias_of": null
   }
 },
@@ -481,11 +1739,11 @@
   "pk": 1,
   "fields": {
     "collection": 1,
-    "title": "Barras de pan",
-    "file": "original_images/barras-de-pan-de-emergencia.webp",
-    "width": 540,
-    "height": 391,
-    "created_at": "2023-01-16T10:05:32.933Z",
+    "title": "Aguzanieves",
+    "file": "original_images/wagtail_b99Dan4.jpg",
+    "width": 612,
+    "height": 408,
+    "created_at": "2023-01-18T08:10:31.547Z",
     "uploaded_by_user": [
       "lm"
     ],
@@ -493,8 +1751,29 @@
     "focal_point_y": null,
     "focal_point_width": null,
     "focal_point_height": null,
-    "file_size": 45892,
-    "file_hash": "fc66ac2bebb099e6a7e144f56f0d489663f6e56a"
+    "file_size": 18271,
+    "file_hash": "6a0730ca33ae49a337fbaf4831a8e228f4b2c35e"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "barrapan",
+    "file": "original_images/barrapan.jpeg",
+    "width": 225,
+    "height": 225,
+    "created_at": "2023-01-19T13:13:35.105Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 4008,
+    "file_hash": "3fb6e40616afd683904bac7dd82ca88a245f3a4d"
   }
 },
 {
@@ -515,10 +1794,52 @@
   }
 },
 {
+  "model": "wagtailredirects.redirect",
+  "pk": 1,
+  "fields": {
+    "old_path": "/mi-blog",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 4,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2023-01-19T12:47:40.295Z"
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 5,
+  "fields": {
+    "date": "2023-01-19",
+    "intro": "Mi primer post para el blog",
+    "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>"
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 6,
+  "fields": {
+    "date": "2023-01-19",
+    "intro": "Segunda publi",
+    "body": ""
+  }
+},
+{
+  "model": "blog.blogindexpage",
+  "pk": 4,
+  "fields": {
+    "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>"
+  }
+},
+{
   "model": "home.homepage",
   "pk": 3,
   "fields": {
-    "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><embed alt=\"Barras de pan\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"2ci5k\"></p>"
+    "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><p data-block-key=\"97uok\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"c2611\"></p><p data-block-key=\"2ci5k\"></p>"
   }
 }
 ]

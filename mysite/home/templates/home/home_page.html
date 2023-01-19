@@ -5,6 +5,7 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block extra_css %}
+<!-- Required Glide Stylesheet -->
 <link rel="stylesheet" href="{% static 'node_modules/@glidejs/glide/dist/css/glide.core.min.css' %}">
 
 <!-- Optional Theme Stylesheet -->
@@ -30,20 +31,24 @@
 
 {% block content %}
 
+<h1>{{ page.title }}</h1>
+
 <div class="wrap">
 
-    <div class="glide hero">
+    <div class="micarrusel">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
                 {% for n in '123456'|make_list %}
-                <li class="glide__slide"><img src="{% get_static_prefix %}carousel/{{n}}.png" class="slide"></li>
+                <li class="glide__slide">
+                    <img src="{% get_static_prefix %}carousel/{{n}}.png" class="slide">
+                </li>
                 {% endfor %}
             </ul>
         </div>
     </div>
 </div>
 
-
+<!-- contenido de la página: campo body -->
 {{ page.body | richtext }}
 
 {% endblock content %}
@@ -51,13 +56,13 @@
 {% block extra_js %}
 <script src="{% static 'node_modules/@glidejs/glide/dist/glide.min.js' %}"></script>
 <script>
-var glideHero = new Glide('.hero', {
+var glideHero = new Glide('.micarrusel', {
   type: 'carousel',
   animationDuration: 1000,
   autoplay: 1500,
   focusAt: '1',
   startAt: 1,
-  perView: 4, 
+  perView: 3, 
 });
 
 glideHero.mount();

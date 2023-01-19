@@ -11,21 +11,19 @@
 <link rel="stylesheet" href="{% static 'node_modules/@glidejs/glide/dist/css/glide.theme.min.css' %}">
 <style>
     .wrap {
-        max-width: 900px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
     .glide__slide {
-        border: 1px solid black;
-        line-height: 100px;
-        margin: 0;
-        text-align: center;
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        border: 10px solid #000;
     }
     .slide {
-        width: 50%;
         
-        background-size: cover;
-        background-position: center;
+         margin: -100px 0 0 -150px;
     }
 </style>
 {% endblock extra_css %}
@@ -55,11 +53,11 @@
 <script>
 var glideHero = new Glide('.hero', {
   type: 'carousel',
-  animationDuration: 2000,
+  animationDuration: 1000,
   autoplay: 1500,
   focusAt: '1',
   startAt: 1,
-  perView: 3, 
+  perView: 4, 
 });
 
 glideHero.mount();

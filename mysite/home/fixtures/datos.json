@@ -20,6 +20,36 @@
   }
 },
 {
+  "model": "blog.blogpagegalleryimage",
+  "pk": 3,
+  "fields": {
+    "sort_order": 0,
+    "page": 7,
+    "image": 6,
+    "caption": "Panorámica"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 4,
+  "fields": {
+    "sort_order": 1,
+    "page": 7,
+    "image": 4,
+    "caption": "London eye"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 5,
+  "fields": {
+    "sort_order": 2,
+    "page": 7,
+    "image": 5,
+    "caption": ""
+  }
+},
+{
   "model": "wagtailcore.locale",
   "pk": 1,
   "fields": {
@@ -347,6 +377,190 @@
   }
 },
 {
+  "model": "wagtailcore.referenceindex",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "7",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "6",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.3.image",
+    "content_path_hash": "aefd6a2a-9c55-5bd0-9ece-9d049598cafe"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "4",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.4.image",
+    "content_path_hash": "47a3b3ad-9179-50b0-ac1e-5afaf60b19bf"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "5",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.5.image",
+    "content_path_hash": "cdf9c3ee-75a5-5afb-ad86-a99b828ba13f"
+  }
+},
+{
   "model": "wagtailcore.workflowpage",
   "pk": 1,
   "fields": {
@@ -407,6 +621,46 @@
   }
 },
 {
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "pan",
+    "slug": "pan"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "comida",
+    "slug": "comida"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "gluten",
+    "slug": "gluten"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "londres",
+    "slug": "londres"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "museo",
+    "slug": "museo"
+  }
+},
+{
   "model": "taggit.taggeditem",
   "pk": 1,
   "fields": {
@@ -440,6 +694,90 @@
       "image"
     ],
     "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 6
   }
 },
 {
@@ -609,6 +947,17 @@
       "lm"
     ],
     "page": 6,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 7,
     "comment_notifications": true
   }
 },
@@ -981,6 +1330,182 @@
       "lm"
     ],
     "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-23T08:08:05.749Z",
+    "uuid": "97dd37de-5a49-4140-9d25-24a471bb5683",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:08:05.870Z",
+    "uuid": "97dd37de-5a49-4140-9d25-24a471bb5683",
+    "user": [
+      "lm"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:13:26.873Z",
+    "uuid": "eeece4bc-9911-40dc-8752-8bdcc0434fd6",
+    "user": [
+      "lm"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:13:26.978Z",
+    "uuid": "eeece4bc-9911-40dc-8752-8bdcc0434fd6",
+    "user": [
+      "lm"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:43:21.618Z",
+    "uuid": "4b096978-2c55-4afe-a820-efe8f80bf335",
+    "user": [
+      "lm"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:43:21.714Z",
+    "uuid": "4b096978-2c55-4afe-a820-efe8f80bf335",
+    "user": [
+      "lm"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:52:17.706Z",
+    "uuid": "6e8a71a7-52a2-4c6f-ba61-38a78ed3f882",
+    "user": [
+      "lm"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:52:17.783Z",
+    "uuid": "6e8a71a7-52a2-4c6f-ba61-38a78ed3f882",
+    "user": [
+      "lm"
+    ],
+    "revision": 13,
     "content_changed": true,
     "deleted": false,
     "page": 5
@@ -1544,6 +2069,297 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:08:05.770Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:13:26.841Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": 10,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-23T08:08:05.825Z",
+      "last_published_at": "2023-01-23T08:08:05.825Z",
+      "live_revision": 10,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-23T08:08:05.770Z",
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 7,
+          "image": 6,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 7,
+          "image": 4,
+          "caption": "London eye"
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "page": 7,
+          "image": 5,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:43:21.587Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": 11,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-23T08:08:05.825Z",
+      "last_published_at": "2023-01-23T08:13:26.904Z",
+      "live_revision": 11,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-23T08:13:26.841Z",
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 3,
+          "sort_order": 0,
+          "page": 7,
+          "image": 6,
+          "caption": "Panorámica"
+        },
+        {
+          "pk": 4,
+          "sort_order": 1,
+          "page": 7,
+          "image": 4,
+          "caption": "London eye"
+        },
+        {
+          "pk": 5,
+          "sort_order": 2,
+          "page": 7,
+          "image": 5,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:52:17.671Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 9,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:15:30.589Z",
+      "live_revision": 9,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:15:30.527Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog. Lo he cambiado",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.page",
   "pk": 1,
   "fields": {
@@ -1623,7 +2439,7 @@
   "fields": {
     "path": "000100010001",
     "depth": 3,
-    "numchild": 2,
+    "numchild": 3,
     "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
     "locale": 1,
     "latest_revision": 4,
@@ -1665,12 +2481,12 @@
     "numchild": 0,
     "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
     "locale": 1,
-    "latest_revision": 9,
+    "latest_revision": 13,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2023-01-19T13:00:56.389Z",
-    "last_published_at": "2023-01-19T13:15:30.589Z",
-    "live_revision": 9,
+    "last_published_at": "2023-01-23T08:52:17.733Z",
+    "live_revision": 13,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -1691,7 +2507,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2023-01-19T13:15:30.527Z",
+    "latest_revision_created_at": "2023-01-23T08:52:17.671Z",
     "alias_of": null
   }
 },
@@ -1731,6 +2547,45 @@
     "show_in_menus": false,
     "search_description": "",
     "latest_revision_created_at": "2023-01-19T13:01:59.932Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "0001000100010003",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+    "locale": 1,
+    "latest_revision": 12,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-23T08:08:05.825Z",
+    "last_published_at": "2023-01-23T08:43:21.652Z",
+    "live_revision": 12,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Viaje a Londres",
+    "draft_title": "Viaje a Londres",
+    "slug": "viaje-a-londres",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/viaje-a-londres/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-23T08:43:21.587Z",
     "alias_of": null
   }
 },
@@ -1777,6 +2632,69 @@
   }
 },
 {
+  "model": "wagtailimages.image",
+  "pk": 4,
+  "fields": {
+    "collection": 1,
+    "title": "London Eye",
+    "file": "original_images/London_Eye_Twilight_April_2006.jpg",
+    "width": 2100,
+    "height": 1400,
+    "created_at": "2023-01-23T08:11:00.472Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 1313067,
+    "file_hash": "0013635bd2235b4314e9b843d3f84013c2987d84"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 5,
+  "fields": {
+    "collection": 1,
+    "title": "British Museum",
+    "file": "original_images/British_Museum_Great_Court_London_UK_-_Diliff_cropped.jpg",
+    "width": 3806,
+    "height": 3207,
+    "created_at": "2023-01-23T08:12:15.567Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 4738843,
+    "file_hash": "64acb2b8902582683e4c84985a4f1e2218b6a4db"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 6,
+  "fields": {
+    "collection": 1,
+    "title": "London Skyline",
+    "file": "original_images/London_Skyline_125508655.jpeg",
+    "width": 2048,
+    "height": 1152,
+    "created_at": "2023-01-23T08:12:48.645Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 771336,
+    "file_hash": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+  }
+},
+{
   "model": "wagtailusers.userprofile",
   "pk": 1,
   "fields": {
@@ -1790,7 +2708,9 @@
     "preferred_language": "",
     "current_time_zone": "",
     "avatar": "",
-    "dismissibles": {}
+    "dismissibles": {
+      "whats_new_in_wagtail_version_4": true
+    }
   }
 },
 {
@@ -1815,7 +2735,7 @@
   "pk": 5,
   "fields": {
     "date": "2023-01-19",
-    "intro": "Mi primer post para el blog",
+    "intro": "Mi primer post para el blog. Lo he cambiado",
     "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>"
   }
 },
@@ -1826,6 +2746,15 @@
     "date": "2023-01-19",
     "intro": "Segunda publi",
     "body": ""
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 7,
+  "fields": {
+    "date": "2023-01-23",
+    "intro": "Resumen de mi viaje a Londres",
+    "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>"
   }
 },
 {

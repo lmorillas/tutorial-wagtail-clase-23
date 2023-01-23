@@ -6,11 +6,16 @@ from django.db import models
 
 # Nuevos imports para ClusterTaggableManager, TaggedItemBase, MultiFieldPanel
 
-from modelcluster.fields import ParentalKey
+from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.contrib.taggit import ClusterTaggableManager
 from taggit.models import TaggedItemBase
 
 from modelcluster.fields import ParentalKey
+
+from wagtail.snippets.models import register_snippet
+
+from django import forms
+
 
 
 class BlogIndexPage(Page):
@@ -38,6 +43,7 @@ class BlogPage(Page):
     intro = models.CharField(max_length=250)
     body = RichTextField(blank=True)
     tags = ClusterTaggableManager(through=BlogPageTag, blank=True)
+    categories = ParentalManyToManyField('blog.BlogCategory', blank=True)
 
     def main_image(self):
         'seleciona a primera imagem de la galeria'
@@ -56,6 +62,7 @@ class BlogPage(Page):
         MultiFieldPanel([
             FieldPanel('date'),
             FieldPanel('tags'),
+            FieldPanel('categories', widget=forms.CheckboxSelectMultiple),
         ], heading="Blog information"), # Heading es el titulo del panel
         FieldPanel('intro'),
         FieldPanel('body'),
@@ -92,3 +99,28 @@ class BlogTagIndexPage(Page):
         context = super().get_context(request)
         context['blogpages'] = blogpages
         return context
+
+
+
+@register_snippet
+class BlogCategory(models.Model):
+    '''Snippet para categorias de blog.
+    Este modelo no hereda de Page.
+    Los Snippets los creamos desde el admin de wagtail en `snippets` o `fragmentos`
+    '''
+    name = models.CharField(max_length=255)
+    icon = models.ForeignKey(
+        'wagtailimages.Image', null=True, blank=True,
+        on_delete=models.SET_NULL, related_name='+'
+    )
+
+    panels = [
+        FieldPanel('name'),
+        FieldPanel('icon'),
+    ]
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name_plural = 'blog categories'

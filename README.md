@@ -5,9 +5,13 @@
 - [X] Instalar Wagtail 
 - [X] Home Page
 - [X] Instalar debug toolbar
-- [ ] Crear app blog
-- [ ] Blog Index y Posts
+- [X] Crear app blog
+- [X] Blog Index y Posts
 - [ ] Imágenes y documentos
 - [ ] Tags y categorías
 - [ ] Carrusel en home (Buscar librería, por ejemplo https://glidejs.com/)
-- [ ] Búsqueda
+- [ ] Búsqueda https://docs.wagtail.org/en/stable/topics/search/index.html
+- [ ] Menús https://wagtailmenus.readthedocs.io/en/stable/
+- [ ] Sección de noticias en primera página
+- [ ] Paginar noticias y entradas de blog
+- [ ] Página de conacto

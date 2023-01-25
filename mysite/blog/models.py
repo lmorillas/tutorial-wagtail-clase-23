@@ -8,6 +8,8 @@ from modelcluster.fields import ParentalKey
 
 
 class BlogIndexPage(Page):
+    subpage_types = ['BlogPage']
+
     intro = RichTextField(blank=True)
 
     content_panels = Page.content_panels + [

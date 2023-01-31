@@ -132,3 +132,6 @@ tmp
 
 node_modules/
 images
+
+.vagrant
+backups

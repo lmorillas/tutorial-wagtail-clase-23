@@ -1,6 +1,12 @@
 from fabric import task, Connection
 from invocations.console import confirm
 
+'''
+Fabfile con ejemplos de gestión del proyecto
+
+Recuerda instalar fabric e invocations
+$ pip install fabric invocations
+'''
 
 my_hosts = []
 

@@ -19,6 +19,8 @@ from django import forms
 
 
 class BlogIndexPage(Page):
+    subpage_types = ['BlogPage']
+
     intro = RichTextField(blank=True)
 
     content_panels = Page.content_panels + [
@@ -100,7 +102,20 @@ class BlogTagIndexPage(Page):
         context['blogpages'] = blogpages
         return context
 
-
+@register_snippet
+class Profesor(models.Model):
+    nombre = models.CharField(max_length=255)
+    apellidos = models.CharField(max_length=255)
+    email = models.EmailField()
+    def __str__(self):
+        return self.nombre + ' ' + self.apellidos
+    panels = [
+        FieldPanel('apellidos'),
+        FieldPanel('nombre'),
+        FieldPanel('email'),
+    ]
+    class Meta:
+        verbose_name_plural = 'profesores'
 
 @register_snippet
 class BlogCategory(models.Model):

@@ -9,6 +9,12 @@ class HomePage(Page):
     '''
     Añadimos campo *body* de texto enriquecido
     '''
+    # subpage de la aplicación blog
+    # subpage_types = ['blog.BlogIndexPage']
+    
+    # no permito que tenga nuevas subpáginas
+    #subpage_types = []
+
     body = RichTextField(blank=True)
 
     content_panels = Page.content_panels + [

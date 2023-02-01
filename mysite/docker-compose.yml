@@ -1,7 +1,8 @@
 version: '3.3'
+
 services:
   db:
-    image: postgres
+    image: postgres:latest
     restart: always
     environment:
       - POSTGRES_USER
@@ -13,7 +14,7 @@ services:
     
     volumes: 
       - db:/var/lib/postgresql/data
-      - ./backups:/backups
+      - ./backup:/backup
       # - ./db/init.sql:/docker-entrypoint-initdb.d/create_tables.sql
 
   adminer:

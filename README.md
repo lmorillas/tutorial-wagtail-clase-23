@@ -11,12 +11,15 @@
 - [X] Tags y categorías
 - [X] Carrusel en home (Buscar librería, por ejemplo https://glidejs.com/)
 - [ ] Búsqueda https://docs.wagtail.org/en/stable/topics/search/index.html
+    - [ ] Con Base de datos
+    - [ ] Con Elasticsearch
 - [ ] Menús https://wagtailmenus.readthedocs.io/en/stable/
 - [ ] Sección de noticias en primera página
 - [ ] Paginar noticias y entradas de blog
 - [ ] Página de conacto
 - [ ] Migrar a postgresql [Vagrant](https://github.com/lmorillas/vagrant_docker/tree/postgres)
 - [ ] Backups de la base de datoshttps://django-dbbackup.readthedocs.io
+- [ ] Programar tarea [Tutorial crontab](https://www.redeszone.net/tutoriales/servidores/cron-crontab-linux-programar-tareas/)
 
 
 ## Backups

@@ -131,4 +131,7 @@ dmypy.json
 tmp
 
 node_modules/
-media/images/*
+images
+
+.vagrant
+backups

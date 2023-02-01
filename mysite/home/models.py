@@ -13,7 +13,7 @@ class HomePage(Page):
     # subpage_types = ['blog.BlogIndexPage']
     
     # no permito que tenga nuevas subpáginas
-    subpage_types = []
+    #subpage_types = []
 
     body = RichTextField(blank=True)
 

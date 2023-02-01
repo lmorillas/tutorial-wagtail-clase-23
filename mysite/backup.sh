@@ -3,4 +3,4 @@ python manage.py dumpdata --natural-foreign --indent 2 \
     -e wagtailsearch.indexentry -e wagtailsearch.sqliteftsindexentry \
     -e wagtailcore.groupcollectionpermission \
     -e wagtailcore.grouppagepermission -e wagtailimages.rendition \
-    -e sessions > home/fixtures/datos.json
+    -e sessions > home/fixtures/miblog.json

@@ -1,0 +1,1 @@
+vagrant ssh -c "cd /vagrant && docker-compose exec db bash -c 'pg_dump -Fc miblog -U estudiante | gzip >/backup/miblog-$(date +%Y-%m-%d).dump.gz'"

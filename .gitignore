@@ -134,4 +134,4 @@ node_modules/
 images
 
 .vagrant
-backups
+backup

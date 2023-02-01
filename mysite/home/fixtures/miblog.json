@@ -1,0 +1,3714 @@
+[
+{
+  "model": "blog.blogpagetag",
+  "pk": 4,
+  "fields": {
+    "tag": 9,
+    "content_object": 5
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 5,
+  "fields": {
+    "tag": 10,
+    "content_object": 5
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 6,
+  "fields": {
+    "tag": 11,
+    "content_object": 5
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 7,
+  "fields": {
+    "tag": 11,
+    "content_object": 6
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 5,
+    "image": 2,
+    "caption": "Pan"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 5,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 3,
+  "fields": {
+    "sort_order": 0,
+    "page": 7,
+    "image": 6,
+    "caption": "Panorámica"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 4,
+  "fields": {
+    "sort_order": 1,
+    "page": 7,
+    "image": 4,
+    "caption": "London eye"
+  }
+},
+{
+  "model": "blog.blogpagegalleryimage",
+  "pk": 5,
+  "fields": {
+    "sort_order": 2,
+    "page": 7,
+    "image": 5,
+    "caption": ""
+  }
+},
+{
+  "model": "blog.profesor",
+  "pk": 1,
+  "fields": {
+    "nombre": "luis",
+    "apellidos": "Morillas",
+    "email": "luis@cpile.com"
+  }
+},
+{
+  "model": "blog.blogcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Programación",
+    "icon": null
+  }
+},
+{
+  "model": "blog.blogcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Viajes",
+    "icon": null
+  }
+},
+{
+  "model": "blog.blogcategory",
+  "pk": 3,
+  "fields": {
+    "name": "Deportes",
+    "icon": null
+  }
+},
+{
+  "model": "wagtailcore.locale",
+  "pk": 1,
+  "fields": {
+    "language_code": "en"
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "pk": 2,
+  "fields": {
+    "hostname": "localhost",
+    "port": 80,
+    "site_name": "",
+    "root_page": 3,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "3",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "body.",
+    "content_path": "body.",
+    "content_path_hash": "4d332296-be98-5f77-a5ad-cbe1e1aacda5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "4",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "5",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "6",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.2.image",
+    "content_path_hash": "85f506df-ac2c-5104-97df-336036d91e03"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "7",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "6",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.3.image",
+    "content_path_hash": "aefd6a2a-9c55-5bd0-9ece-9d049598cafe"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "4",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.4.image",
+    "content_path_hash": "47a3b3ad-9179-50b0-ac1e-5afaf60b19bf"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "5",
+    "model_path": "gallery_images.item.image",
+    "content_path": "gallery_images.5.image",
+    "content_path_hash": "cdf9c3ee-75a5-5afb-ad86-a99b828ba13f"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "8",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "auth",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 44,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "taggit",
+      "tag"
+    ],
+    "to_object_id": "11",
+    "model_path": "tagged_items.item.tag",
+    "content_path": "tagged_items.7.tag",
+    "content_path_hash": "a4245cab-1223-5258-8e09-836cdc37835a"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 45,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "taggit",
+      "tag"
+    ],
+    "to_object_id": "9",
+    "model_path": "tagged_items.item.tag",
+    "content_path": "tagged_items.None.tag",
+    "content_path_hash": "ba6661ca-69a8-5ae1-a6aa-fb67dbf805eb"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 46,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "taggit",
+      "tag"
+    ],
+    "to_object_id": "10",
+    "model_path": "tagged_items.item.tag",
+    "content_path": "tagged_items.None.tag",
+    "content_path_hash": "ba6661ca-69a8-5ae1-a6aa-fb67dbf805eb"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "taggit",
+      "tag"
+    ],
+    "to_object_id": "11",
+    "model_path": "tagged_items.item.tag",
+    "content_path": "tagged_items.None.tag",
+    "content_path_hash": "ba6661ca-69a8-5ae1-a6aa-fb67dbf805eb"
+  }
+},
+{
+  "model": "wagtailcore.workflowpage",
+  "pk": 1,
+  "fields": {
+    "workflow": 1
+  }
+},
+{
+  "model": "wagtailcore.workflowtask",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "workflow": 1,
+    "task": 1
+  }
+},
+{
+  "model": "wagtailcore.task",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "content_type": [
+      "wagtailcore",
+      "groupapprovaltask"
+    ],
+    "active": true
+  }
+},
+{
+  "model": "wagtailcore.workflow",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "pájaro",
+    "slug": "pájaro"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "wagtail",
+    "slug": "wagtail"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "aguzanieves",
+    "slug": "aguzanieves"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "pan",
+    "slug": "pan"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "comida",
+    "slug": "comida"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "gluten",
+    "slug": "gluten"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "londres",
+    "slug": "londres"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "museo",
+    "slug": "museo"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "web",
+    "slug": "web"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "clase",
+    "slug": "clase"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 6
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$p5Dsa0xkUNwzXvkgESElXx$Mrop6Pmom6cEHrbJ/6CyRPPf6NwPihx61xSU4uzdJAI=",
+    "last_login": "2023-01-19T11:15:59.570Z",
+    "is_superuser": true,
+    "username": "lm",
+    "first_name": "",
+    "last_name": "",
+    "email": "lm@lm.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-01-18T07:58:07.485Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 3,
+    "comment_notifications": false
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 4,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 5,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 6,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 7,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "page": 8,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-18T08:12:28.591Z",
+    "uuid": "f224264a-358b-4210-b834-cbc727e96609",
+    "user": [
+      "lm"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-18T08:12:28.648Z",
+    "uuid": "f224264a-358b-4210-b834-cbc727e96609",
+    "user": [
+      "lm"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T12:26:49.951Z",
+    "uuid": "7c85ab42-e2e1-441d-82e0-716e2b6b4612",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T12:26:50.064Z",
+    "uuid": "7c85ab42-e2e1-441d-82e0-716e2b6b4612",
+    "user": [
+      "lm"
+    ],
+    "revision": 2,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:35.904Z",
+    "uuid": "b67052e6-5a46-451f-bd2c-3a1340d44e5a",
+    "user": [
+      "lm"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:40.230Z",
+    "uuid": "f22802de-b9a2-4dce-960f-590ae2f98b4c",
+    "user": [
+      "lm"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "label": "Mi Blog",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T12:47:40.311Z",
+    "uuid": "f22802de-b9a2-4dce-960f-590ae2f98b4c",
+    "user": [
+      "lm"
+    ],
+    "revision": 4,
+    "content_changed": false,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T13:00:56.320Z",
+    "uuid": "f3ba7bdf-6891-4d9c-861f-d8ce3a05bc33",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:00:56.429Z",
+    "uuid": "f3ba7bdf-6891-4d9c-861f-d8ce3a05bc33",
+    "user": [
+      "lm"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-19T13:01:59.915Z",
+    "uuid": "197cac2f-8b09-4a85-8849-dd0d7fe56f85",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:02:00.011Z",
+    "uuid": "197cac2f-8b09-4a85-8849-dd0d7fe56f85",
+    "user": [
+      "lm"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:13:44.764Z",
+    "uuid": "efe132c0-c45d-463e-8b68-b3b8d840fd59",
+    "user": [
+      "lm"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:13:44.836Z",
+    "uuid": "efe132c0-c45d-463e-8b68-b3b8d840fd59",
+    "user": [
+      "lm"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:06.324Z",
+    "uuid": "83485887-9b74-42b9-80a1-2caeb26b1a7c",
+    "user": [
+      "lm"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:06.411Z",
+    "uuid": "83485887-9b74-42b9-80a1-2caeb26b1a7c",
+    "user": [
+      "lm"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:30.558Z",
+    "uuid": "b59fb1ed-84de-4cbf-9cd9-0478764afd80",
+    "user": [
+      "lm"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-19T13:15:30.644Z",
+    "uuid": "b59fb1ed-84de-4cbf-9cd9-0478764afd80",
+    "user": [
+      "lm"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-23T08:08:05.749Z",
+    "uuid": "97dd37de-5a49-4140-9d25-24a471bb5683",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:08:05.870Z",
+    "uuid": "97dd37de-5a49-4140-9d25-24a471bb5683",
+    "user": [
+      "lm"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:13:26.873Z",
+    "uuid": "eeece4bc-9911-40dc-8752-8bdcc0434fd6",
+    "user": [
+      "lm"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:13:26.978Z",
+    "uuid": "eeece4bc-9911-40dc-8752-8bdcc0434fd6",
+    "user": [
+      "lm"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:43:21.618Z",
+    "uuid": "4b096978-2c55-4afe-a820-efe8f80bf335",
+    "user": [
+      "lm"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Viaje a Londres",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:43:21.714Z",
+    "uuid": "4b096978-2c55-4afe-a820-efe8f80bf335",
+    "user": [
+      "lm"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-23T08:52:17.706Z",
+    "uuid": "6e8a71a7-52a2-4c6f-ba61-38a78ed3f882",
+    "user": [
+      "lm"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-23T08:52:17.783Z",
+    "uuid": "6e8a71a7-52a2-4c6f-ba61-38a78ed3f882",
+    "user": [
+      "lm"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-25T07:56:48.203Z",
+    "uuid": "2cbb0b4e-3bd6-46f0-9806-6fdf0ade4b5e",
+    "user": [
+      "lm"
+    ],
+    "revision": 14,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-25T07:56:48.324Z",
+    "uuid": "2cbb0b4e-3bd6-46f0-9806-6fdf0ade4b5e",
+    "user": [
+      "lm"
+    ],
+    "revision": 14,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-25T08:01:42.239Z",
+    "uuid": "8d969eb8-8b40-479e-b067-e26589aec253",
+    "user": [
+      "lm"
+    ],
+    "revision": 15,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-25T08:01:42.355Z",
+    "uuid": "8d969eb8-8b40-479e-b067-e26589aec253",
+    "user": [
+      "lm"
+    ],
+    "revision": 15,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogtagindexpage"
+    ],
+    "label": "Etiquetas",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-25T08:07:13.202Z",
+    "uuid": "b12b6a9a-a414-4217-a155-3bc616ec1201",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogtagindexpage"
+    ],
+    "label": "Etiquetas",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-25T08:07:13.305Z",
+    "uuid": "b12b6a9a-a414-4217-a155-3bc616ec1201",
+    "user": [
+      "lm"
+    ],
+    "revision": 16,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-25T08:10:11.656Z",
+    "uuid": "9cbbe25c-b155-452b-aea7-8c0e89cff451",
+    "user": [
+      "lm"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Segundo post",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-01-25T08:10:11.733Z",
+    "uuid": "9cbbe25c-b155-452b-aea7-8c0e89cff451",
+    "user": [
+      "lm"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "label": "Pimera publicación",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-01-25T09:02:59.911Z",
+    "uuid": "936626f8-0f00-47e0-867e-6ac6f1342ce8",
+    "user": [
+      "lm"
+    ],
+    "revision": 18,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.groupapprovaltask",
+  "pk": 1,
+  "fields": {
+    "groups": [
+      [
+        "Moderators"
+      ]
+    ]
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-18T08:12:28.564Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "bbb02bc7-fa32-4fd6-98b6-3b0f76712b02",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><p data-block-key=\"97uok\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"c2611\"></p><p data-block-key=\"2ci5k\"></p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:26:49.972Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "mi-blog",
+      "content_type": 46,
+      "url_path": "/home/mi-blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:47:35.881Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": 2,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T12:26:50.025Z",
+      "last_published_at": "2023-01-19T12:26:50.025Z",
+      "live_revision": 2,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "blog",
+      "content_type": 46,
+      "url_path": "/home/mi-blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T12:26:49.972Z",
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T12:47:40.208Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Mi Blog",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+      "locale": 1,
+      "latest_revision": 3,
+      "live": true,
+      "has_unpublished_changes": true,
+      "first_published_at": "2023-01-19T12:26:50.025Z",
+      "last_published_at": "2023-01-19T12:26:50.025Z",
+      "live_revision": 2,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Mi Blog",
+      "draft_title": "Mi Blog",
+      "slug": "blog",
+      "content_type": 46,
+      "url_path": "/home/blog/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T12:47:35.881Z",
+      "alias_of": null,
+      "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:00:56.337Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:01:59.932Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Segundo post",
+    "content": {
+      "pk": 6,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f8cdf702-5819-4842-937e-4a1fe7b33464",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Segundo post",
+      "draft_title": "Segundo post",
+      "slug": "segundo-post",
+      "content_type": 47,
+      "url_path": "/home/blog/segundo-post/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Segunda publi",
+      "body": "",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:13:44.731Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 5,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:00:56.389Z",
+      "live_revision": 5,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:00:56.337Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:15:06.294Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 7,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:13:44.789Z",
+      "live_revision": 7,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:13:44.731Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"left\" id=\"1\"/><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-19T13:15:30.527Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 8,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:15:06.354Z",
+      "live_revision": 8,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:15:06.294Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:08:05.770Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:13:26.841Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": 10,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-23T08:08:05.825Z",
+      "last_published_at": "2023-01-23T08:08:05.825Z",
+      "live_revision": 10,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-23T08:08:05.770Z",
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 7,
+          "image": 6,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 7,
+          "image": 4,
+          "caption": "London eye"
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "page": 7,
+          "image": 5,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:43:21.587Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Viaje a Londres",
+    "content": {
+      "pk": 7,
+      "path": "0001000100010003",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+      "locale": 1,
+      "latest_revision": 11,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-23T08:08:05.825Z",
+      "last_published_at": "2023-01-23T08:13:26.904Z",
+      "live_revision": 11,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Viaje a Londres",
+      "draft_title": "Viaje a Londres",
+      "slug": "viaje-a-londres",
+      "content_type": 47,
+      "url_path": "/home/blog/viaje-a-londres/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-23T08:13:26.841Z",
+      "alias_of": null,
+      "date": "2023-01-23",
+      "intro": "Resumen de mi viaje a Londres",
+      "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 3,
+          "sort_order": 0,
+          "page": 7,
+          "image": 6,
+          "caption": "Panorámica"
+        },
+        {
+          "pk": 4,
+          "sort_order": 1,
+          "page": 7,
+          "image": 4,
+          "caption": "London eye"
+        },
+        {
+          "pk": 5,
+          "sort_order": 2,
+          "page": 7,
+          "image": 5,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-23T08:52:17.671Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 9,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-19T13:15:30.589Z",
+      "live_revision": 9,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:15:30.527Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog. Lo he cambiado",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-25T07:56:48.162Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 13,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-23T08:52:17.733Z",
+      "live_revision": 13,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-23T08:52:17.671Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog. Lo he cambiado",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "tagged_items": [
+        {
+          "pk": null,
+          "tag": 9,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 10,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 11,
+          "content_object": 5
+        }
+      ],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categories": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-25T08:01:42.205Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 14,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-25T07:56:48.242Z",
+      "live_revision": 14,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-25T07:56:48.162Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog. Lo he cambiado",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "tagged_items": [
+        {
+          "pk": null,
+          "tag": 9,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 10,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 11,
+          "content_object": 5
+        }
+      ],
+      "gallery_images": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 2,
+          "caption": "Pan"
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categories": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogtagindexpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-25T08:07:13.222Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Etiquetas",
+    "content": {
+      "pk": 8,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "29c0ed20-e3f7-42f3-9578-ea0de8970b42",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Etiquetas",
+      "draft_title": "Etiquetas",
+      "slug": "tags",
+      "content_type": 49,
+      "url_path": "/home/tags/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-25T08:10:11.630Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Segundo post",
+    "content": {
+      "pk": 6,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f8cdf702-5819-4842-937e-4a1fe7b33464",
+      "locale": 1,
+      "latest_revision": 6,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:01:59.975Z",
+      "last_published_at": "2023-01-19T13:01:59.975Z",
+      "live_revision": 6,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Segundo post",
+      "draft_title": "Segundo post",
+      "slug": "segundo-post",
+      "content_type": 47,
+      "url_path": "/home/blog/segundo-post/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-19T13:01:59.932Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Segunda publi",
+      "body": "",
+      "wagtail_admin_comments": [],
+      "tagged_items": [
+        {
+          "pk": null,
+          "tag": 11,
+          "content_object": 6
+        }
+      ],
+      "gallery_images": [],
+      "categories": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "submitted_for_moderation": false,
+    "created_at": "2023-01-25T09:02:59.862Z",
+    "user": [
+      "lm"
+    ],
+    "object_str": "Pimera publicación",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+      "locale": 1,
+      "latest_revision": 15,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2023-01-19T13:00:56.389Z",
+      "last_published_at": "2023-01-25T08:01:42.271Z",
+      "live_revision": 15,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Pimera publicación",
+      "draft_title": "Pimera publicación",
+      "slug": "pimera-publicacion",
+      "content_type": 47,
+      "url_path": "/home/blog/pimera-publicacion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2023-01-25T08:01:42.205Z",
+      "alias_of": null,
+      "date": "2023-01-19",
+      "intro": "Mi primer post para el blog. Lo he cambiado",
+      "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+      "wagtail_admin_comments": [],
+      "tagged_items": [
+        {
+          "pk": null,
+          "tag": 9,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 10,
+          "content_object": 5
+        },
+        {
+          "pk": null,
+          "tag": 11,
+          "content_object": 5
+        }
+      ],
+      "gallery_images": [
+        {
+          "pk": 2,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categories": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "translation_key": "d9e21ad6-4491-4be7-8462-8aed1400539e",
+    "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": null,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 2,
+    "translation_key": "bbb02bc7-fa32-4fd6-98b6-3b0f76712b02",
+    "locale": 1,
+    "latest_revision": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-18T08:12:28.610Z",
+    "last_published_at": "2023-01-18T08:12:28.610Z",
+    "live_revision": 1,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Home",
+    "draft_title": "Home",
+    "slug": "home",
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "url_path": "/home/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-18T08:12:28.564Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
+    "numchild": 3,
+    "translation_key": "2bfdecc4-ce90-48cf-9d9f-407ba4f30580",
+    "locale": 1,
+    "latest_revision": 4,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-19T12:26:50.025Z",
+    "last_published_at": "2023-01-19T12:47:40.252Z",
+    "live_revision": 4,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Mi Blog",
+    "draft_title": "Mi Blog",
+    "slug": "blog",
+    "content_type": [
+      "blog",
+      "blogindexpage"
+    ],
+    "url_path": "/home/blog/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-19T12:47:40.208Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "0001000100010001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "a482e6d0-4403-4ceb-aea5-1256396f9dfa",
+    "locale": 1,
+    "latest_revision": 18,
+    "live": true,
+    "has_unpublished_changes": true,
+    "first_published_at": "2023-01-19T13:00:56.389Z",
+    "last_published_at": "2023-01-25T08:01:42.271Z",
+    "live_revision": 15,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Pimera publicación",
+    "draft_title": "Pimera publicación",
+    "slug": "pimera-publicacion",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/pimera-publicacion/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-25T09:02:59.862Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "0001000100010002",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "f8cdf702-5819-4842-937e-4a1fe7b33464",
+    "locale": 1,
+    "latest_revision": 17,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-19T13:01:59.975Z",
+    "last_published_at": "2023-01-25T08:10:11.680Z",
+    "live_revision": 17,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Segundo post",
+    "draft_title": "Segundo post",
+    "slug": "segundo-post",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/segundo-post/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-25T08:10:11.630Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "0001000100010003",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "117c5fb1-4161-488d-b1cf-729b2f036c08",
+    "locale": 1,
+    "latest_revision": 12,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-23T08:08:05.825Z",
+    "last_published_at": "2023-01-23T08:43:21.652Z",
+    "live_revision": 12,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Viaje a Londres",
+    "draft_title": "Viaje a Londres",
+    "slug": "viaje-a-londres",
+    "content_type": [
+      "blog",
+      "blogpage"
+    ],
+    "url_path": "/home/blog/viaje-a-londres/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-23T08:43:21.587Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 8,
+  "fields": {
+    "path": "000100010002",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "29c0ed20-e3f7-42f3-9578-ea0de8970b42",
+    "locale": 1,
+    "latest_revision": 16,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-01-25T08:07:13.269Z",
+    "last_published_at": "2023-01-25T08:07:13.269Z",
+    "live_revision": 16,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Etiquetas",
+    "draft_title": "Etiquetas",
+    "slug": "tags",
+    "content_type": [
+      "blog",
+      "blogtagindexpage"
+    ],
+    "url_path": "/home/tags/",
+    "owner": [
+      "lm"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-01-25T08:07:13.222Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogcategory"
+    ],
+    "label": "Programación",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-25T07:59:53.106Z",
+    "uuid": "6b590143-c99a-42f3-8556-ffbcf3bcb76a",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogcategory"
+    ],
+    "label": "Viajes",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-25T08:00:06.455Z",
+    "uuid": "51a20a9a-c0d4-4512-8866-e67e13397498",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "blog",
+      "blogcategory"
+    ],
+    "label": "Deportes",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-25T08:00:14.670Z",
+    "uuid": "3c216342-5472-4582-a3db-d8851e3f336f",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "blog",
+      "profesor"
+    ],
+    "label": "luis Morillas",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-01-25T08:15:57.025Z",
+    "uuid": "c3fd9cd6-76b3-4060-9acc-d9acad72ec20",
+    "user": [
+      "lm"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "Aguzanieves",
+    "file": "original_images/wagtail_b99Dan4.jpg",
+    "width": 612,
+    "height": 408,
+    "created_at": "2023-01-18T08:10:31.547Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 18271,
+    "file_hash": "6a0730ca33ae49a337fbaf4831a8e228f4b2c35e"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "barrapan",
+    "file": "original_images/barrapan.jpeg",
+    "width": 225,
+    "height": 225,
+    "created_at": "2023-01-19T13:13:35.105Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 4008,
+    "file_hash": "3fb6e40616afd683904bac7dd82ca88a245f3a4d"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 4,
+  "fields": {
+    "collection": 1,
+    "title": "London Eye",
+    "file": "original_images/London_Eye_Twilight_April_2006.jpg",
+    "width": 2100,
+    "height": 1400,
+    "created_at": "2023-01-23T08:11:00.472Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 1313067,
+    "file_hash": "0013635bd2235b4314e9b843d3f84013c2987d84"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 5,
+  "fields": {
+    "collection": 1,
+    "title": "British Museum",
+    "file": "original_images/British_Museum_Great_Court_London_UK_-_Diliff_cropped.jpg",
+    "width": 3806,
+    "height": 3207,
+    "created_at": "2023-01-23T08:12:15.567Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 4738843,
+    "file_hash": "64acb2b8902582683e4c84985a4f1e2218b6a4db"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 6,
+  "fields": {
+    "collection": 1,
+    "title": "London Skyline",
+    "file": "original_images/London_Skyline_125508655.jpeg",
+    "width": 2048,
+    "height": 1152,
+    "created_at": "2023-01-23T08:12:48.645Z",
+    "uploaded_by_user": [
+      "lm"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 771336,
+    "file_hash": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+  }
+},
+{
+  "model": "wagtailusers.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "lm"
+    ],
+    "submitted_notifications": true,
+    "approved_notifications": true,
+    "rejected_notifications": true,
+    "updated_comments_notifications": true,
+    "preferred_language": "",
+    "current_time_zone": "",
+    "avatar": "",
+    "dismissibles": {
+      "whats_new_in_wagtail_version_4": true
+    }
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 1,
+  "fields": {
+    "old_path": "/mi-blog",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 4,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2023-01-19T12:47:40.295Z"
+  }
+},
+{
+  "model": "blog.blogtagindexpage",
+  "pk": 8,
+  "fields": {}
+},
+{
+  "model": "blog.blogpage",
+  "pk": 5,
+  "fields": {
+    "date": "2023-01-19",
+    "intro": "Mi primer post para el blog. Lo he cambiado",
+    "body": "<p data-block-key=\"y4rm8\">Every “page” in Wagtail can call out to its parent or children from its own position in the hierarchy. But why do we have to specify post.specific.intro rather than post.intro? This has to do with the way we defined our model:</p><p data-block-key=\"31hk9\">class BlogPage(Page):</p><p data-block-key=\"71dcc\">The get_children() method gets us a list of instances of the Page base class. When we want to reference properties of the instances that inherit from the base class, Wagtail provides the specific method that retrieves the actual BlogPage record. While the “title” field is present on the base Page model, “intro” is only present on the BlogPage model, so we need .specific to access it.</p><p data-block-key=\"3m2lj\"></p><p data-block-key=\"wf41v\"></p><p data-block-key=\"682lv\"></p>",
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 6,
+  "fields": {
+    "date": "2023-01-19",
+    "intro": "Segunda publi",
+    "body": "",
+    "categories": []
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 7,
+  "fields": {
+    "date": "2023-01-23",
+    "intro": "Resumen de mi viaje a Londres",
+    "body": "<p data-block-key=\"cp2pl\">Viaje a londres a ver a mis amigos ...</p><p data-block-key=\"diift\"><b>Londres</b> (en <a href=\"https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s\">inglés</a>, <i>London</i>, pronunciado <a href=\"https://es.wikipedia.org/wiki/Ayuda:AFI/Ingl%C3%A9s\">/ˈlʌndən/</a> ( <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c3/En-uk-London.ogg\">escuchar</a>)) es la capital y mayor ciudad del <a href=\"https://es.wikipedia.org/wiki/Reino_Unido\">Reino Unido</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-4\">4</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-5\">5</a>​ Situada a orillas del <a href=\"https://es.wikipedia.org/wiki/R%C3%ADo_T%C3%A1mesis\">río Támesis</a>, Londres es un importante asentamiento humano desde que fue fundada por los <a href=\"https://es.wikipedia.org/wiki/Antigua_Roma\">romanos</a> con el nombre de <a href=\"https://es.wikipedia.org/wiki/Londinium\"><i>Londinium</i></a> hace casi dos milenios.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_001-6\">6</a>​ El núcleo antiguo de la urbe, la <a href=\"https://es.wikipedia.org/wiki/City_de_Londres\">City de Londres</a>, conserva básicamente su perímetro medieval de una <a href=\"https://es.wikipedia.org/wiki/Milla_cuadrada\">milla cuadrada</a>. Desde el siglo XIX el nombre «Londres» también hace referencia a toda la metrópolis desarrollada alrededor de este núcleo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-mills-7\">7</a>​ El grueso de esta <a href=\"https://es.wikipedia.org/wiki/Conurbaci%C3%B3n\">conurbación</a> forma la <a href=\"https://es.wikipedia.org/wiki/Regiones_de_Inglaterra\">región</a> de Londres y el área administrativa del <a href=\"https://es.wikipedia.org/wiki/Gran_Londres\">Gran Londres</a>,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-elcock-8\">8</a>​ gobernado por el <a href=\"https://es.wikipedia.org/wiki/Alcalde_de_Londres\">alcalde</a> y la <a href=\"https://es.wikipedia.org/wiki/Asamblea_de_Londres\">asamblea de Londres</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-politics_uk-9\">9</a>​</p><p data-block-key=\"3p38o\">Londres es una <a href=\"https://es.wikipedia.org/wiki/Ciudad_global\">ciudad global</a>, uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-10\">10</a>​ Es el principal centro financiero del mundo junto con <a href=\"https://es.wikipedia.org/wiki/Nueva_York\">Nueva York</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Mastercard-11\">11</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_Financial_Centres_10-12\">12</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forbes.com-13\">13</a>​ Con un <a href=\"https://es.wikipedia.org/wiki/Producto_interno_bruto\">PIB</a> de 801,66 mil millones de euros en 2017, es la economía urbana más grande del <a href=\"https://es.wikipedia.org/wiki/Europa\">continente europeo</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-14\">14</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-forpolgdp-15\">15</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-Global_city_GDP_rankings_2008-2025-16\">16</a>​ Londres es también una capital cultural mundial,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-17\">17</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-18\">18</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-19\">19</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-20\">20</a>​ la ciudad más visitada considerando el número de visitas internacionales<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-21\">21</a>​ y tiene el mayor sistema aeroportuario del mundo según el tráfico de pasajeros.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-capa1-22\">22</a>​ Asimismo, las 43 universidades de la ciudad conforman la mayor concentración de centros de estudios superiores de toda Europa.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london2-23\">23</a>​ En el año <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012\">2012</a> Londres se convirtió en la única ciudad en albergar la celebración de tres <a href=\"https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Verano\">Juegos Olímpicos de Verano</a>.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-IOC-24\">24</a>​</p><p data-block-key=\"1m7il\">En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-london_006-25\">25</a>​ La <a href=\"https://es.wikipedia.org/wiki/Autoridad_del_Gran_Londres\">Autoridad del Gran Londres</a> estima que en 2015 la ciudad tiene 8,63 millones de habitantes,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-gla-pop-2015-26\">26</a>​ que supone el 12,5 % del total de habitantes del Reino Unido.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-27\">27</a>​ El área urbana del Gran Londres, con 10 470 000<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-demographia-28\">28</a>​ habitantes, es la <a href=\"https://es.wikipedia.org/wiki/Anexo:%C3%81reas_urbanas_de_la_Uni%C3%B3n_Europea\">segunda más grande de Europa</a>, pero su <a href=\"https://es.wikipedia.org/wiki/%C3%81rea_metropolitana_de_Londres\">área metropolitana</a>, con una población estimada de entre 12 y 14 millones,<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro_area_1-29\">29</a>​<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-metro2-30\">30</a>​ es la mayor del continente. Desde 1831 a 1925 Londres, como capital del <a href=\"https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico\">Imperio británico</a>, fue la ciudad más poblada del mundo.<a href=\"https://es.wikipedia.org/wiki/Londres#cite_note-31\">31</a>​</p>",
+    "categories": []
+  }
+},
+{
+  "model": "blog.blogindexpage",
+  "pk": 4,
+  "fields": {
+    "intro": "<p data-block-key=\"l3bxp\">Publicaciones <b>personales</b> de bla bla bla</p>"
+  }
+},
+{
+  "model": "home.homepage",
+  "pk": 3,
+  "fields": {
+    "body": "<h2 data-block-key=\"06sn7\">Página inicial de mi sitio</h2><p data-block-key=\"bpkf8\">Ejemplo de <b>Wagtail</b> para clase.</p><p data-block-key=\"dc8al\"></p><p data-block-key=\"23qm6\"></p><p data-block-key=\"97uok\"></p><embed alt=\"Aguzanieves\" embedtype=\"image\" format=\"fullwidth\" id=\"1\"/><p data-block-key=\"c2611\"></p><p data-block-key=\"2ci5k\"></p>"
+  }
+}
+]

@@ -30,7 +30,9 @@ def vagup(c):
 def backup(c):
     '''Crea un backup de la base de datos'''
     c.run(f'''vagrant ssh -c "cd /vagrant && \
-        docker-compose exec db bash -c 'pg_dump -Fc {POSTGRES_DB} -U {POSTGRES_USER} | gzip >/backup/{POSTGRES_DB}-$(date +%Y-%m-%d).dump.gz'"''',
+        docker-compose exec db bash -c 'pg_dump -Fc {POSTGRES_DB} \
+            -U {POSTGRES_USER} | \
+                gzip >/backup/{POSTGRES_DB}-$(date +%Y-%m-%d).dump.gz'"''',
         pty=True)
 
 def conexion_vagrant():
